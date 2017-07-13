@@ -17,7 +17,6 @@ def is_debug():
 
 
 macroses = [("MODULE_NAME", __name__), ("MODULE_VERSION", __version__), ("MODULE_DOC", __description__)]
-cflags = ["-g", "-std=c99", "-fno-strict-aliasing"]
 
 
 if is_debug():
