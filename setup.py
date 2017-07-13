@@ -17,7 +17,7 @@ def is_debug():
 
 
 macroses = [("MODULE_NAME", __name__), ("MODULE_VERSION", __version__), ("MODULE_DOC", __description__)]
-
+cflags=[]
 
 if is_debug():
     macroses.append(("PYXMLSEC_ENABLE_DEBUG", "1"))
